@@ -1,0 +1,10 @@
+{
+  "group": "Agent1Group",
+  "links": [
+    {
+      "source": "start",
+      "target": "Agent1Group/Agent1",
+      "type": "hard"
+    }
+  ]
+}
