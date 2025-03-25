@@ -9,7 +9,7 @@
     {
       "source": "Agent1Group/Agent1",
       "target": "Agent1Group/Agent2",
-      "type": "soft"
+      "type": "hard"
     }
   ]
 }
