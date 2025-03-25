@@ -1,0 +1,16 @@
+{
+  "id":"Agent2",
+  "name":"Agent2",
+  "title":"文件下载智能体",
+  "description":"文件下载智能体",
+  "keywords": ["文件下载智能体"],
+  "manual":"123",
+  "prompt": "根据用户输入的url下载文件并输出文件内容",
+  "model": "gpt-3.5-turbo",
+  "params":[
+    { "title":"url", "name":"url", "type":"string", "notnull":true, "description": "文件url", "defaultValue":"" }
+  ],
+  "results":[
+    { "title":"content", "name":"content", "type":"string", "notnull":true, "description":"文件内容", "defaultValue":"" }
+  ]
+}
